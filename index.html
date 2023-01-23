@@ -4,50 +4,126 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
     <title>Resume</title>
   </head>
   <body>
-    <header>
+    <!-- header -->
+    <header class="top-header">
       <section>
-        <p>Askhat Anarbayev</p>
-        <p>Frond-End Developer</p>
+        <div class="container top-header__container">
+          <p class="top-header__title">Askhat Anarbayev</p>
+          <button class="top-header__button">Frond-End Dev</button>
+        </div>
       </section>
     </header>
     <main>
+      <!-- hero -->
       <section class="hero">
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__list-item">
-              <a href="" class="nav__list-item-link"></a>
-            </li>
-            <li class="nav__list-item">
-              <a href="" class="nav__list-item-link"></a>
-            </li>
-            <li class="nav__list-item">
-              <a href="" class="nav__list-item-link"></a>
-            </li>
-            <li class="nav__list-item">
-              <a href="" class="nav__list-item-link"></a>
-            </li>
-          </ul>
-        </nav>
-        <h1 class="hero__title">Hi, I’m Askhat!</h1>
-        <p class="hero__desc"></p>
-        <p class="hero__desc"></p>
-        <p class="hero__desc"></p>
-        <p class="hero__desc"></p>
+        <div class="container">
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <a
+                  href="https://t.me/blineblinsky"
+                  target="_blank"
+                  class="nav__list-item-link"
+                >
+                  <svg class="nav__list-item-svg" width="48" height="48">
+                    <use href="./images/sprite.svg#icon-telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a
+                  href="https://github.com/ultrasoundcode"
+                  target="_blank"
+                  class="nav__list-item-link"
+                >
+                  <svg class="nav__list-item-svg" width="48" height="48">
+                    <use href="./images/sprite.svg#icon-github"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a
+                  href="https://www.linkedin.com/in/askhat-anarbayev-2556531b9/"
+                  target="_blank"
+                  class="nav__list-item-link"
+                >
+                  <svg class="nav__list-item-svg" width="48" height="48">
+                    <use href="./images/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="nav__list-item">
+                <a href="" class="nav__list-item-link">
+                  <svg class="nav__list-item-svg" width="48" height="48">
+                    <use href="./images/sprite.svg#"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <h1 class="hero__title">Hi, I’m Askhat!</h1>
+          <p class="hero__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+            quisquam?
+          </p>
+          <p class="hero__desc">Lorem ipsum dolor sit amet.</p>
+          <p class="hero__desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro,
+            tempora?
+          </p>
+          <p class="hero__desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia,
+            iusto?
+          </p>
+        </div>
       </section>
       <section class="projects">
-        <h2 class="h2__title">Projects</h2>
+        <div class="container">
+          <h2 class="h2__title">Projects</h2>
+          <ul class="projecs__list">
+            <li class="projects__item">Lorem.</li>
+            <li class="projects__item">Lorem, ipsum.</li>
+          </ul>
+        </div>
       </section>
       <section class="experience">
-        <h2 class="h2__title">Experience</h2>
+        <div class="container">
+          <h2 class="h2__title">Experience</h2>
+          <ul class="experience__list">
+            <li class="experience__item">Lorem.</li>
+            <li class="experience__item">Lorem, ipsum.</li>
+            <li class="experience__item">Lorem, ipsum dolor.</li>
+          </ul>
+        </div>
       </section>
       <section class="skills">
-        <h2 class="h2__title">Skills</h2>
+        <div class="container">
+          <h2 class="h2__title">Skills</h2>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+        <p class="footer_desc">
+          Designed & Built by
+          <a
+            class="footer__link"
+            href="https://github.com/ultrasoundcode"
+            target="_blank"
+            >ultrasoundcode</a
+          >
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
