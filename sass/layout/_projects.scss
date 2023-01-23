@@ -1,0 +1,21 @@
+.projects {
+  background-color: #46465a;
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+.h2__title {
+  font-family: var(--main-font);
+  font-style: Regular;
+  font-size: 24px;
+  line-height: 32px;
+  @media screen and(min-width:767px) {
+    font-size: 28px;
+  }
+  margin-bottom: 32px;
+}
+.projecs__list {
+  display: block;
+  @media screen and(min-width:767px) {
+    display: flex;
+  }
+}
