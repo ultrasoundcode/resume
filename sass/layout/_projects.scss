@@ -5,7 +5,7 @@
 }
 .h2__title {
   font-family: var(--main-font);
-  font-style: Regular;
+  font-style: var(--font-style);
   font-size: 24px;
   line-height: 32px;
   @media screen and(min-width:767px) {
@@ -14,14 +14,14 @@
   margin-bottom: 32px;
 }
 .projecs__list {
-  display: block;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   @media screen and(min-width:767px) {
-    display: flex;
+    flex-direction: row;
   }
 }
 .projects__item-wrap {
-  display: flex;
-  flex-direction: column;
   width: 366px;
   height: 280px;
   padding: 20px;
@@ -33,8 +33,8 @@
     margin-bottom: 32px;
   }
   @media screen and(min-width:767px) {
-    flex-direction: row;
     &:not(:last-child) {
+      display: flex;
       margin-bottom: 0;
       margin-right: 32px;
     }
@@ -42,7 +42,7 @@
 }
 .projects__item {
   font-family: var(--main-font);
-  font-style: Regular;
+  font-style: var(--font-style);
   font-size: 14px;
   line-height: 20px;
 }
