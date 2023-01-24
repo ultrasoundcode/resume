@@ -3,3 +3,21 @@
   padding-top: 32px;
   padding-bottom: 64px;
 }
+.experience__item-wrap {
+  table-layout: 80px;
+  // border: 1px solid black;
+  width: 210px;
+  height: 116px;
+  &:not(last-child) {
+    margin-bottom: 32px;
+  }
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 767px) {
+    width: 400px;
+    flex-wrap: wrap;
+  }
+}
+.experience__div {
+  color: var(--accent-color);
+}
