@@ -1,13 +1,11 @@
 .experience {
-  background-color: #4f4b56;
+  background-color: #706a7a;
   padding-top: 32px;
-  padding-bottom: 64px;
+  padding-bottom: 32px;
 }
 .experience__item-wrap {
-  table-layout: 80px;
-  // border: 1px solid black;
   width: 210px;
-  height: 116px;
+  max-height: 116px;
   &:not(last-child) {
     margin-bottom: 32px;
   }
@@ -19,5 +17,12 @@
   }
 }
 .experience__div {
+  font-family: var(--main-font);
+  font-style: var(--font-style);
   color: var(--accent-color);
+  margin-bottom: 10px;
+}
+.experience__item {
+  font-family: var(--main-font);
+  font-style: var(--font-style);
 }

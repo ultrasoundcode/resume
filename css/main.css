@@ -143,6 +143,12 @@ a {
 
 .hero {
   background-color: #a2a0a8;
+  padding-bottom: 64px;
+}
+@media screen and (min-width: 767px) {
+  .hero {
+    padding-bottom: 40px;
+  }
 }
 
 .nav__list {
@@ -176,9 +182,12 @@ a {
   font-family: var(--main-font);
   font-style: var(--font-style);
 }
+.hero__desc-edu {
+  color: var(--accent-color);
+}
 
 .projects {
-  background-color: #46465a;
+  background-color: #7d7d94;
   padding-top: 32px;
   padding-bottom: 64px;
 }
@@ -208,12 +217,10 @@ a {
 }
 
 .projects__item-wrap {
-  width: 366px;
-  height: 280px;
   padding: 20px;
   border-radius: 0.8rem;
   box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.0500000007), 0 1rem 1.5rem rgba(0, 0, 0, 0.1000000015);
-  background-color: rgba(67, 67, 67, 0.7212070227);
+  background-color: rgba(67, 67, 67, 0.3);
 }
 .projects__item-wrap:not(:last-child) {
   margin-bottom: 32px;
@@ -229,20 +236,24 @@ a {
 .projects__item {
   font-family: var(--main-font);
   font-style: var(--font-style);
-  font-size: 14px;
+  font-size: 23px;
   line-height: 20px;
+  width: 400px;
+  width: 280px;
+}
+.projects__item-title {
+  color: var(--accent-color);
 }
 
 .experience {
-  background-color: #4f4b56;
+  background-color: #706a7a;
   padding-top: 32px;
-  padding-bottom: 64px;
+  padding-bottom: 32px;
 }
 
 .experience__item-wrap {
-  table-layout: 80px;
   width: 210px;
-  height: 116px;
+  max-height: 116px;
   display: flex;
   flex-direction: column;
 }
@@ -257,11 +268,19 @@ a {
 }
 
 .experience__div {
+  font-family: var(--main-font);
+  font-style: var(--font-style);
   color: var(--accent-color);
+  margin-bottom: 10px;
+}
+
+.experience__item {
+  font-family: var(--main-font);
+  font-style: var(--font-style);
 }
 
 .skills {
-  background-color: #37353c;
+  background-color: #524e5c;
   padding-top: 32px;
   padding-bottom: 32px;
 }

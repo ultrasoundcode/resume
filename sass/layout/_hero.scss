@@ -1,5 +1,9 @@
 .hero {
   background-color: #a2a0a8;
+  padding-bottom: 64px;
+  @media screen and(min-width:767px) {
+    padding-bottom: 40px;
+  }
 }
 
 .nav__list {
@@ -26,4 +30,7 @@
 .hero__desc {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  &-edu {
+    color: var(--accent-color);
+  }
 }
