@@ -12,9 +12,13 @@
   }
 }
 .skills__second-title {
+  display: flex;
   font-family: var(--main-font);
   font-style: var(--font-style);
-  padding-right: 32px;
+  padding-right: 10px;
+  @media screen and(min-width:767px) {
+    padding-right: 50px;
+  }
 }
 .skills__list {
   display: flex;
@@ -27,7 +31,7 @@
   &:not(:last-child) {
     margin-bottom: 32px;
   }
-  margin-right: 24px;
+  margin-right: 19px;
   @media screen and(min-width:767px) {
     margin-right: 70px;
   }
