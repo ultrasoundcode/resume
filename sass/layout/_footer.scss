@@ -1,6 +1,7 @@
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #484258;
 }
 .footer_desc {
   font-family: var(--main-font);
@@ -8,4 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.footer__link {
+  color: var(--accent-color);
 }

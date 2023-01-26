@@ -55,7 +55,7 @@ a {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 366px;
+    width: 390px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -78,7 +78,7 @@ a {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 366px;
+    width: 390px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -246,7 +246,7 @@ a {
 }
 
 .experience {
-  background-color: #706a7a;
+  background-color: #7d738b;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -280,7 +280,7 @@ a {
 }
 
 .skills {
-  background-color: #524e5c;
+  background-color: #696476;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -330,6 +330,7 @@ a {
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #484258;
 }
 
 .footer_desc {
@@ -338,4 +339,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.footer__link {
+  color: var(--accent-color);
 }/*# sourceMappingURL=main.css.map */
