@@ -1,5 +1,5 @@
 .projects {
-  background-color: #46465a;
+  background-color: #7d7d94;
   padding-top: 32px;
   padding-bottom: 64px;
 }
@@ -22,13 +22,11 @@
   }
 }
 .projects__item-wrap {
-  width: 366px;
-  height: 280px;
   padding: 20px;
   border-radius: 0.8rem;
   box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.0500000007),
     0 1rem 1.5rem rgba(0, 0, 0, 0.1000000015);
-  background-color: rgba(67, 67, 67, 0.7212070227);
+  background-color: rgba(67, 67, 67, 0.3);
   &:not(:last-child) {
     margin-bottom: 32px;
   }
@@ -43,6 +41,12 @@
 .projects__item {
   font-family: var(--main-font);
   font-style: var(--font-style);
-  font-size: 14px;
+  font-size: 23px;
   line-height: 20px;
+  width: 400px;
+  width: 280px;
+
+  &-title {
+    color: var(--accent-color);
+  }
 }
