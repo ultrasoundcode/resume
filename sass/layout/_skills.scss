@@ -3,14 +3,6 @@
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.skills__div {
-  width: 370px;
-  max-height: 270px;
-  display: flex;
-  @media screen and(min-width:767px) {
-    width: 720px;
-  }
-}
 .skills__second-title {
   display: flex;
   font-family: var(--main-font);
@@ -20,8 +12,15 @@
     padding-right: 50px;
   }
 }
+.skills__div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
 .skills__list {
   display: flex;
+  // gap: 10px;
   justify-content: center;
 }
 .skills__item {
@@ -31,7 +30,7 @@
   &:not(:last-child) {
     margin-bottom: 32px;
   }
-  margin-right: 19px;
+  margin-right: 24px;
   @media screen and(min-width:767px) {
     margin-right: 70px;
   }

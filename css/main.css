@@ -47,15 +47,15 @@ a {
 
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 366px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -70,15 +70,15 @@ a {
 }
 .container {
   width: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 366px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -285,17 +285,6 @@ a {
   padding-bottom: 32px;
 }
 
-.skills__div {
-  width: 370px;
-  max-height: 270px;
-  display: flex;
-}
-@media screen and (min-width: 767px) {
-  .skills__div {
-    width: 720px;
-  }
-}
-
 .skills__second-title {
   display: flex;
   font-family: var(--main-font);
@@ -308,6 +297,13 @@ a {
   }
 }
 
+.skills__div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
 .skills__list {
   display: flex;
   justify-content: center;
@@ -317,7 +313,7 @@ a {
   font-family: var(--main-font);
   font-style: var(--font-style);
   display: flex;
-  margin-right: 19px;
+  margin-right: 24px;
 }
 .skills__item:not(:last-child) {
   margin-bottom: 32px;
