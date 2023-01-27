@@ -95,6 +95,8 @@ a {
   --main-font: "Roboto Mono", monospace;
   --accent-color: #77fe9e;
   --font-style: Regular;
+  --transition: cubic-bezier(0.4, 0, 0.2, 1);
+  --text-color: black;
 }
 
 .top-header {
@@ -125,6 +127,11 @@ a {
 .top-header__button {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 12px;
   line-height: 1.67;
   width: 150px;
@@ -163,11 +170,20 @@ a {
   }
 }
 
+.nav__list-item-svg {
+  fill: rgb(40, 37, 37);
+  transition: fill 350ms var(--transition);
+}
+.nav__list-item-svg:hover, .nav__list-item-svg:focus {
+  fill: var(--accent-color);
+}
+
 .hero__title {
   padding-top: 32px;
   margin-bottom: 30px;
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
   font-size: 24px;
   line-height: 1.33;
 }
@@ -181,6 +197,7 @@ a {
 .hero__desc {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
 }
 .hero__desc-edu {
   color: var(--accent-color);
@@ -195,6 +212,7 @@ a {
 .h2__title {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
   font-size: 24px;
   line-height: 32px;
   margin-bottom: 32px;
@@ -236,6 +254,7 @@ a {
 .projects__item {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
   font-size: 23px;
   line-height: 20px;
   width: 400px;
@@ -277,6 +296,16 @@ a {
 .experience__item {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  font-size: 17px;
+  line-height: 1.33;
+}
+
+.experience__icon {
+  fill: rgb(40, 37, 37);
+  transition: fill 350ms var(--transition);
+}
+.experience__icon:hover, .experience__icon:focus {
+  fill: var(--accent-color);
 }
 
 .skills {
@@ -289,6 +318,7 @@ a {
   display: flex;
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
   padding-right: 10px;
 }
 @media screen and (min-width: 767px) {
@@ -312,11 +342,11 @@ a {
 .skills__item {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
+  font-size: 17px;
+  line-height: 1.33;
   display: flex;
   margin-right: 24px;
-}
-.skills__item:not(:last-child) {
-  margin-bottom: 32px;
 }
 @media screen and (min-width: 767px) {
   .skills__item {
@@ -329,6 +359,14 @@ a {
   }
 }
 
+.skills__icon {
+  fill: rgb(40, 37, 37);
+  transition: fill 350ms var(--transition);
+}
+.skills__icon:hover, .skills__icon:focus {
+  fill: var(--accent-color);
+}
+
 .footer {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -338,6 +376,7 @@ a {
 .footer_desc {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
   display: flex;
   align-items: center;
   justify-content: center;

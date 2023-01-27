@@ -7,6 +7,7 @@
   display: flex;
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
   padding-right: 10px;
   @media screen and(min-width:767px) {
     padding-right: 50px;
@@ -26,15 +27,23 @@
 .skills__item {
   font-family: var(--main-font);
   font-style: var(--font-style);
+  color: var(--text-color);
+  font-size: 17px;
+  line-height: 1.33;
   display: flex;
-  &:not(:last-child) {
-    margin-bottom: 32px;
-  }
   margin-right: 24px;
   @media screen and(min-width:767px) {
     margin-right: 70px;
   }
   @media screen and(min-width:1199px) {
     margin-right: 100px;
+  }
+}
+.skills__icon {
+  fill: rgb(40, 37, 37);
+  transition: fill 350ms var(--transition);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
   }
 }
