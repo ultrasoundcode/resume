@@ -92,7 +92,7 @@ a {
   }
 }
 :root {
-  --main-font: 'Roboto Mono', monospace;
+  --main-font: "Roboto Mono", monospace;
   --accent-color: #77fe9e;
   --font-style: Regular;
 }
@@ -219,8 +219,7 @@ a {
 .projects__item-wrap {
   padding: 20px;
   border-radius: 0.8rem;
-  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.0500000007),
-    0 1rem 1.5rem rgba(0, 0, 0, 0.1000000015);
+  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.0500000007), 0 1rem 1.5rem rgba(0, 0, 0, 0.1000000015);
   background-color: rgba(67, 67, 67, 0.3);
 }
 .projects__item-wrap:not(:last-child) {
@@ -308,7 +307,6 @@ a {
 .skills__list {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .skills__item {
@@ -347,4 +345,4 @@ a {
 
 .footer__link {
   color: var(--accent-color);
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
