@@ -49,13 +49,13 @@ a {
   width: 100%;
   padding-left: 5px;
   padding-right: 5px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 366px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -72,13 +72,13 @@ a {
   width: 100%;
   padding-left: 5px;
   padding-right: 5px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 366px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -285,46 +285,28 @@ a {
   padding-bottom: 32px;
 }
 
-.skills__div {
-  width: 370px;
-  max-height: 270px;
-  display: flex;
-}
-@media screen and (min-width: 767px) {
-  .skills__div {
-    width: 720px;
-  }
-}
-
 .skills__second-title {
   font-family: var(--main-font);
   font-style: var(--font-style);
   padding-right: 32px;
 }
 
+.skills__div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 25px;
+}
+
 .skills__list {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .skills__item {
   font-family: var(--main-font);
   font-style: var(--font-style);
-  display: flex;
-  margin-right: 24px;
-}
-.skills__item:not(:last-child) {
-  margin-bottom: 32px;
-}
-@media screen and (min-width: 767px) {
-  .skills__item {
-    margin-right: 70px;
-  }
-}
-@media screen and (min-width: 1199px) {
-  .skills__item {
-    margin-right: 100px;
-  }
 }
 
 .footer {
