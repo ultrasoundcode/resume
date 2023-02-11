@@ -1,20 +1,18 @@
 .experience {
-  background-color: #7d738b;
+  background-color: var(--background);
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .experience__item-wrap {
-  width: 210px;
-  max-height: 116px;
+  padding: 20px;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.0500000007), 0 1rem 1.5rem rgba(0, 0, 0, 0.1000000015);
+  background-color: rgba(67, 67, 67, 0.3);
   &:not(last-child) {
     margin-bottom: 32px;
   }
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 767px) {
-    width: 400px;
-    flex-wrap: wrap;
-  }
 }
 .experience__div {
   font-family: var(--main-font);

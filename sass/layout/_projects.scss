@@ -1,5 +1,5 @@
 .projects {
-  background-color: #7d7d94;
+  background-color: var(--background);
   padding-top: 32px;
   padding-bottom: 64px;
 }
@@ -9,7 +9,7 @@
   color: var(--text-color);
   font-size: 24px;
   line-height: 32px;
-  @media screen and(min-width:767px) {
+  @media screen and (min-width: 767px) {
     font-size: 28px;
   }
   margin-bottom: 32px;
@@ -18,20 +18,19 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  @media screen and(min-width:767px) {
+  @media screen and (min-width: 767px) {
     flex-direction: row;
   }
 }
 .projects__item-wrap {
   padding: 20px;
   border-radius: 0.8rem;
-  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.0500000007),
-    0 1rem 1.5rem rgba(0, 0, 0, 0.1000000015);
+  box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.0500000007), 0 1rem 1.5rem rgba(0, 0, 0, 0.1000000015);
   background-color: rgba(67, 67, 67, 0.3);
   &:not(:last-child) {
     margin-bottom: 32px;
   }
-  @media screen and(min-width:767px) {
+  @media screen and (min-width: 767px) {
     &:not(:last-child) {
       display: flex;
       margin-bottom: 0;
@@ -50,5 +49,17 @@
 
   &-title {
     color: var(--accent-color);
+    padding-right: 45px;
   }
+}
+.projects__icon-wrap {
+  margin-top: 30px;
+}
+.projects__icon-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.projects__icon-item {
+  padding-right: 30px;
 }

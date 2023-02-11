@@ -1,7 +1,7 @@
 .hero {
   background-color: #a2a0a8;
   padding-bottom: 64px;
-  @media screen and(min-width:767px) {
+  @media screen and (min-width: 767px) {
     padding-bottom: 40px;
   }
 }
@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   gap: 24px;
-  @media screen and(min-width:767px) {
+  @media screen and (min-width: 767px) {
     gap: 40px;
   }
 }
@@ -31,11 +31,15 @@
   color: var(--text-color);
   font-size: 24px;
   line-height: 1.33;
-  @media screen and(min-width:767px) {
+  @media screen and (min-width: 767px) {
     font-size: 36px;
     line-height: 1.94;
   }
 }
+.hiro__desc-item {
+  margin-bottom: 25px;
+}
+
 .hero__desc {
   font-family: var(--main-font);
   font-style: var(--font-style);
