@@ -135,7 +135,6 @@ a {
   padding-right: 20px;
   font-size: 12px;
   line-height: 1.67;
-  width: 150px;
   height: 32px;
   border-radius: 6px;
   border: none;
@@ -203,6 +202,8 @@ a {
   font-family: var(--main-font);
   font-style: var(--font-style);
   color: var(--text-color);
+  font-size: 15px;
+  line-height: 1.5;
 }
 .hero__desc-edu {
   color: var(--accent-color);
@@ -268,6 +269,14 @@ a {
 .projects__item-title {
   color: var(--accent-color);
   padding-right: 45px;
+}
+.projects__item-desc {
+  margin-top: 15px;
+  font-family: var(--main-font);
+  font-style: var(--font-style);
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .projects__icon-wrap {
