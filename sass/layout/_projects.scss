@@ -51,6 +51,14 @@
     color: var(--accent-color);
     padding-right: 45px;
   }
+  &-desc {
+    margin-top: 15px;
+    font-family: var(--main-font);
+    font-style: var(--font-style);
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 1.5;
+  }
 }
 .projects__icon-wrap {
   margin-top: 30px;
