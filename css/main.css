@@ -203,7 +203,8 @@ a {
   font-style: var(--font-style);
   color: var(--text-color);
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.9;
+  letter-spacing: 0.05em;
 }
 .hero__desc-edu {
   color: var(--accent-color);
@@ -276,7 +277,8 @@ a {
   font-style: var(--font-style);
   color: var(--text-color);
   font-size: 15px;
-  line-height: 1.5;
+  line-height: 1.9;
+  letter-spacing: 0.05em;
 }
 
 .projects__icon-wrap {
@@ -321,8 +323,10 @@ a {
 .experience__item {
   font-family: var(--main-font);
   font-style: var(--font-style);
-  font-size: 17px;
-  line-height: 1.33;
+  color: var(--text-color);
+  font-size: 15px;
+  line-height: 1.9;
+  letter-spacing: 0.05em;
 }
 
 .experience__icon {
