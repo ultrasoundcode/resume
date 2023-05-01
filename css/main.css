@@ -353,6 +353,7 @@ a {
 
 .skills__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
 }
 .skills__list :not(:last-child) {
